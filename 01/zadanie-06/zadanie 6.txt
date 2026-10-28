@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int s;
+    printf("Podaj liczbe sekund: ");
+    scanf("%d",&s);
+    int ileg;
+    int ilem;
+    ileg = s/3600;
+    s = s%3600;
+    ilem = s/60;
+    s = s%60;
+    printf("h %d",ileg);
+    printf("min %d",ilem);
+    printf("s %d",s);
+
+    return 0;
+}
