@@ -1,0 +1,11 @@
+
+int main()
+{
+    int wiek;
+    printf("Ile masz lat ");
+    scanf("%d", &wiek);
+    printf("%d", wiek);
+    return 0;
+}
+
+
