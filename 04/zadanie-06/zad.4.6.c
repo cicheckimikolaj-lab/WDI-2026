@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void) 
+{
     int wybor;
     int klucz = 3;
     char tekst[256];
